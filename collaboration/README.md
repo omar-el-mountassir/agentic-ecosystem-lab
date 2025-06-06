@@ -1,4 +1,4 @@
-# 🤝 Collaboration Framework
+# 🤝 Symbiotic Collaboration Framework
 
 ## Architecture Everything-as-Code pour Collaboration Humain-IA
 
