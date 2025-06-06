@@ -31,12 +31,13 @@
         "responsibilities": ["clear_communication", "strategic_clarity", "feedback_provision"],
         "validation_status": "APPROVED_OMAR"
       },
-      
-      "ai_augmentation": {
-        "domain": "Analysis, execution, optimization, pattern recognition, automation",
-        "capabilities": ["technical_analysis", "workflow_optimization", "data_processing", "systematic_execution"],
-        "boundaries": ["no_autonomous_major_decisions", "transparent_reasoning", "human_oversight_required"],
-        "validation_status": "APPROVED_OMAR"
+      "ai": {
+        "augmentation": {
+          "domain": "Analysis, execution, optimization, pattern recognition, automation",
+          "capabilities": ["technical_analysis", "workflow_optimization", "data_processing", "systematic_execution"],
+          "boundaries": ["no_autonomous_major_decisions", "transparent_reasoning", "human_oversight_required"],
+          "validation_status": "APPROVED_OMAR"
+      },
       },
       
       "mutual_evolution": {
