@@ -7,10 +7,10 @@ Cette collection de session briefs orchestre l'évolution complète de notre Sym
 ### Session Sequence
 
 1. **session-01-userpreferences-audit.md** - Foundation optimization
-2. **session-02-project-management.md** - Workflow efficiency (NEW PRIORITY)
-3. **session-02-charter-simplification.md** - Framework optimization
-4. **session-03-adaptive-implementation.md** - Strategic implementation
-5. **session-04-continuous-evolution.md** - Ongoing optimization
+2. **session-02-charter-simplification.md** - Framework optimization
+3. **session-03-project-management.md** - Workflow efficiency (NEW PRIORITY)
+4. **session-04-adaptive-implementation.md** - Strategic implementation
+5. **session-05-continuous-evolution.md** - Ongoing optimization
 
 ### Master Orchestration
 
