@@ -1,0 +1,23 @@
+[workspace]
+members = [
+    "relay-core",
+    "relay-cli",
+    "relay-agents",
+    "relay-sdk"
+]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Omar El Mountassir <omar.mountassir@gmail.com>"]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/omar-el-mountassir/agentic-ecosystem-lab"
+
+[workspace.dependencies]
+tokio = { version = "1.35", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+anyhow = "1.0"
+thiserror = "1.0"

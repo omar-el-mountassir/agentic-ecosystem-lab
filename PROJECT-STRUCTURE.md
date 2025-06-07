@@ -18,6 +18,30 @@ agentic-ecosystem-lab/
 │   ├── ROADMAP-STATUS-COMPLETE.md     # 📋 À transférer - État complet
 │   ├── openmemory-setup.md            # 📅 À créer - Guide setup OpenMemory MCP
 │   └── tech-decisions.md              # 📅 À créer - Log décisions techniques
+├── relay/                             # 🔄 NEW - AI Collaboration Framework
+│   ├── README.md                      # Overview and philosophy
+│   ├── Cargo.toml                     # Workspace configuration
+│   ├── relay-core/                    # Core Rust daemon
+│   │   ├── Cargo.toml
+│   │   └── src/
+│   │       ├── lib.rs                 # Core functionality
+│   │       ├── daemon.rs              # Background service
+│   │       ├── privacy.rs             # Privacy guardian
+│   │       ├── agent.rs               # Agent management
+│   │       ├── security.rs            # Capability-based permissions
+│   │       └── storage.rs             # Database interface
+│   ├── relay-cli/                     # Command-line interface
+│   │   ├── Cargo.toml
+│   │   └── src/
+│   │       └── main.rs                # CLI commands
+│   ├── relay-agents/                  # 📅 Agent implementations
+│   │   ├── claude/                    # Claude agent adapter
+│   │   └── copilot/                   # GitHub Copilot adapter
+│   ├── relay-sdk/                     # 📅 SDK for custom agents
+│   ├── docs/                          # Relay documentation
+│   │   └── installation.md            # Getting started guide
+│   └── migrations/                    # Database schemas
+│       └── 001_initial.sql
 ├── apps/                              # Applications principales
 │   ├── frontend/                      # 📅 Phase 1 - Next.js 15 + React 19
 │   ├── backend/                       # 📅 Phase 2 - FastAPI + MCP servers
@@ -42,7 +66,7 @@ agentic-ecosystem-lab/
     └── workflows/                     # Cloudflare + Vercel deployment
 
 Status Legend:
-✅ Créé/Transféré | 📋 À transférer de C:/Claude | 📅 Phase future | 🆕 Nouveau (OpenMemory)
+✅ Créé/Transféré | 📋 À transférer de C:/Claude | 📅 Phase future | 🆕 Nouveau (OpenMemory) | 🔄 NEW (Relay)
 
 ## 🚀 TRANSFER AUTOMATION COMPLETE - Phase 1
 
@@ -65,6 +89,20 @@ docs/
 ├── guides/ - Installation & migration guides
 └── templates/ - Standardized evaluation templates
 ```
+
+### 🔄 **NEW: Relay - AI Collaboration Framework**
+**Status**: Initial implementation created
+- Privacy-first design with cryptographic boundaries
+- Async architecture for zero performance impact
+- Human-centric control with capability-based security
+- Rust-based for performance and reliability
+- Beautiful CLI with intuitive commands
+
+**Next Steps for Relay**:
+1. Implement agent adapters (Claude, Copilot)
+2. Build SDK for custom agents
+3. Create GUI preferences interface
+4. Develop advanced workflows
 
 ### Ready for New MCP Integrations
 🎯 **Template-Driven Process**: Standardized evaluation template ready
