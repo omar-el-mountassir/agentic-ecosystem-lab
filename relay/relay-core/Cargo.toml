@@ -1,0 +1,32 @@
+[package]
+name = "relay-core"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true
+
+# File watching
+notify = "6.1"
+
+# IPC
+nix = { version = "0.27", features = ["socket", "fs"] }
+
+# Database
+sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "postgres", "uuid", "time"] }
+
+# Security
+ring = "0.17"
+
+# Configuration
+config = "0.13"
+
+[dev-dependencies]
+tempfile = "3.8"
