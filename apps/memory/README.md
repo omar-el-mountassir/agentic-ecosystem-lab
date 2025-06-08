@@ -10,7 +10,7 @@ Persistent, local-first memory sharing across AI tools.
 **AVANT**: Outils IA séparés sans mémoire partagée
 **APRÈS**: Écosystème unifié avec mémoire persistante
 
-```
+```text
 Dart AI → OpenMemory MCP ← Claude Desktop ↔ Claude Code
 ```
 
@@ -19,6 +19,7 @@ Dart AI → OpenMemory MCP ← Claude Desktop ↔ Claude Code
 **Dependencies**: Docker + OpenAI API key + Pop!_OS migration
 
 **Installation**:
+
 ```bash
 git clone https://github.com/mem0ai/mem0.git
 cd mem0/openmemory
@@ -41,7 +42,7 @@ ROI tracking, demonstration capability, context handoff visible.
 ## ⚡ Next Steps
 
 1. Pop!_OS Migration (foundational)
-2. OpenMemory MCP Setup 
+2. OpenMemory MCP Setup
 3. Tool Connections (Claude Desktop + Code + Dart AI)
 4. End-to-end Workflow Testing
 
