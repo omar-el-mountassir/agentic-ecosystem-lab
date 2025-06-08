@@ -1,6 +1,7 @@
 # 🚀 Agentic Ecosystem Lab
 
-_*Framework d'orchestration IA pour permettre aux IA d'évoluer dans les meilleures conditions*_
+_*Framework d'orchestration IA pour permettre aux IA d'évoluer dans les  
+meilleures conditions*_
 
 ## 📍 Current Status
 
@@ -10,7 +11,8 @@ _*Framework d'orchestration IA pour permettre aux IA d'évoluer dans les meilleu
 
 ## 🌟 Vision
 
-_*Creating the definitive AI orchestration framework that enables AI agents to evolve in optimal conditions*_
+_*Creating the definitive AI orchestration framework that enables AI agents  
+to evolve in optimal conditions*_
 
 ### The Paradigm Shift
 
@@ -155,11 +157,16 @@ docs/
 
 - **[VISION.md](docs/VISION.md)**: Long-term vision and transformation goals
 - **[MISSION.md](docs/MISSION.md)**: Objectives and deliverables
-- **[MCP Evaluation Framework](docs/mcps/mcp-evaluation-framework.md)**: Complete IMPACT scoring system
-- **[Integration Mission Order](docs/governance/integration-mission-order.md)**: Decision framework
-- **[Research: PydanticAI + LogFire + OpenMemory](docs/RESEARCH-PYDANTIC-LOGFIRE-OPENMEMORY.md)**: Game-changing discoveries
-- **[Stack Decision Analysis](docs/STACK-DECISION-ANALYSIS.md)**: PydanticAI vs alternatives
-- **[Cloudflare 13 MCP Servers](docs/CLOUDFLARE-13-MCP-SERVERS.md)**: Infrastructure analysis
+- **[MCP Evaluation Framework](docs/mcps/mcp-evaluation-framework.md)**:  
+  Complete IMPACT scoring system
+- **[Integration Mission Order]**  
+  **(docs/governance/integration-mission-order.md)**: Decision framework
+- **[Research: PydanticAI + LogFire + OpenMemory]**  
+  **(docs/RESEARCH-PYDANTIC-LOGFIRE-OPENMEMORY.md)**: Game-changing discoveries
+- **[Stack Decision Analysis](docs/STACK-DECISION-ANALYSIS.md)**:  
+  PydanticAI vs alternatives
+- **[Cloudflare 13 MCP Servers](docs/CLOUDFLARE-13-MCP-SERVERS.md)**:  
+  Infrastructure analysis
 
 ---
 
